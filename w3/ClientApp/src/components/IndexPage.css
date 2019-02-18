@@ -1,0 +1,108 @@
+body {
+    background: #bbb;
+    color: #efefef;
+    overflow: hidden;
+}
+
+main {
+    text-align: center;
+    font-familY: serif;
+    padding: 3em;
+    width: 70%;
+    height: 100%;
+    left: 15%;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+    overflow: scroll;
+}
+
+main > .content {
+    position:relative;
+    top: 40%;
+}
+
+main p {
+    margin: 2em 3em;
+}
+
+section > img[alt~=background] {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0; 
+    /*width: 100%;*/
+    height: 100%;
+}
+
+ul.social-media li {
+    background: rgba(200,200,200,0.2);
+    cursor: pointer;
+}
+
+ul.social-media li:hover {
+    background: rgba(250,250,250,0.2);
+    cursor: pointer;
+}
+
+ul.social-media li {
+    vertical-align: top;
+    max-width: 200px;
+}
+
+ul.social-media li > a {
+    width: 100%;
+}
+
+ul.social-media img[alt~=linkedin] {
+    width: 100%;
+    /*height: 40px;*/
+}
+ul.social-media img[alt='github logo'] {
+    display: inline-block;
+    max-width: 80%;
+    /*height: 40px;*/
+
+}
+
+ul.social-media img[alt='github icon'] {
+    display: inline-block;
+    width: 20%;
+}
+
+@media screen and (max-width: 320px) {
+    main {
+        padding: 3em;
+        width: 90%;
+        height: 100%;
+        left: 5%;
+        position: absolute;
+        background: rgba(0,0,0,0.3);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 3em;
+        width: 90%;
+        height: 100%;
+        left: 5%;
+        position: absolute;
+        background: rgba(0,0,0,0.3);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section {
+        text-align: center;
+    }
+    section > img[alt~=background] {
+        width: 100%;
+    }
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2em;
+}
