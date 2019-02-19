@@ -16,7 +16,7 @@ export class IndexPage extends Component {
       <section>
         <img src={background} alt="background image" />
         <main>
-        <span className="content">
+        <div className="content">
           <span className="title">Coffeetariat.net</span>
           <Route exact path="/" component={() => (
             <React.Fragment>
@@ -42,7 +42,7 @@ export class IndexPage extends Component {
                 </a></li>
             </ul>);
           }} />
-        </span>
+        </div>
         </main>
       </section>
     );
