@@ -6,11 +6,47 @@ import githublogo from '../images/GitHub_Logo.png';
 import githubicon from '../images/GitHub-Mark-120px-plus.png';
 import inlogo from '../images/Logo-2C-121px-TM.png';
 
+import {Route} from "react-router-dom";
+
 import {NavList} from "./NavList";
-import {Route, Switch, HashRouter, BrowserRouter} from "react-router-dom";
 
 export class IndexPage extends Component {
+  constructor(props) {
+    super(props);
+    
+    this.resizeListener = this.resizeListener.bind(this);
+    this.recalculateContentPosition = this.recalculateContentPosition.bind(this);
+  }
   
+  resizeListener(e) {
+    this.recalculateContentPosition();
+  }
+  
+  recalculateContentPosition() {
+    let content = document.getElementsByClassName('content')[0];
+    if (!content) return;
+    
+    if (content.clientHeight > window.innerHeight) {
+      content.style.top = 0;
+      return;
+    }
+    
+    let clientHeightPercent = (content.clientHeight / window.innerHeight) * 100;
+    let clientRelativePositionPercent = (100 - clientHeightPercent) / 2 /* margins */;
+    
+    content.style.top = clientRelativePositionPercent + '%';
+  }
+  
+  componentDidMount() {
+    window.addEventListener('resize', this.resizeListener);
+    
+    this.recalculateContentPosition();
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.resizeListener);
+  }
+
   render() {
     return (
       <section>
@@ -23,11 +59,8 @@ export class IndexPage extends Component {
               <p>A class of web sites/services primarily developed by a coffee consuming human-kind.</p>
             </React.Fragment>
           )} />
-          <Switch>
-              {/*<Route path="/about" component={() => <p>ha ha ha</p>} />*/}
-              {/*<Route path="/blog" component={() => <p>mwuh ha ha ha</p>} />*/}
-          </Switch>
           <NavList />
+          <hr />
           <Route path="/" component={() => {
             return (<ul className="social-media">
               <li>

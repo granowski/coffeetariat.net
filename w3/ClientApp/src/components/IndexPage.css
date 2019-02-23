@@ -18,7 +18,6 @@ main {
 
 main > .content {
     position:relative;
-    top: 35%;
 }
 
 main p {
@@ -31,7 +30,6 @@ section > img[alt~=background] {
     left: 0;
     right: 0;
     top: 0; 
-    /*width: 100%;*/
     height: 100%;
 }
 
@@ -105,4 +103,9 @@ ul.social-media img[alt='github icon'] {
     display: inline-block;
     vertical-align: middle;
     font-size: 2em;
+}
+
+hr {
+    background-color: #efefef;
+    width: 50%;
 }

@@ -11,7 +11,6 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="ClientApp" t="Include">
         <e p=".gitignore" t="Include" />
-        <e p="build" t="Include" />
         <e p="node_modules" t="ExcludeRecursive">
           <e p="ajv" t="IncludeRecursive" />
           <e p="babel-eslint" t="IncludeRecursive" />
@@ -53,9 +52,13 @@
             <e p="NavList.js" t="Include" />
           </e>
           <e p="images" t="Include">
+            <e p="GitHub-Mark-120px-plus.png" t="Include" />
+            <e p="GitHub_Logo.png" t="Include" />
             <e p="IMG_5798.jpg" t="Include" />
             <e p="IMG_5814.jpg" t="Include" />
             <e p="IMG_5845.jpg" t="Include" />
+            <e p="Logo-2C-121px-R.png" t="Include" />
+            <e p="Logo-2C-121px-TM.png" t="Include" />
           </e>
           <e p="index.js" t="Include" />
           <e p="registerServiceWorker.js" t="Include" />
