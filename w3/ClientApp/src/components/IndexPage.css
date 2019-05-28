@@ -1,10 +1,13 @@
+@font-face {
+    font-family: 'Fontin-Regular';
+    src: url("../fonts/Fontin-Regular.ttf"), url("../fonts/Fontin-Regular.otf");
+}
+
 body {
     background: #bbb;
     color: #efefef;
     overflow: hidden;
-
-    font-familY: 'Fontin-Regular', serif;
-    src: url("../fonts/Fontin-Regular.otf");
+    font-family: 'Fontin-Regular', Georgia, serif;
 }
 
 main {
