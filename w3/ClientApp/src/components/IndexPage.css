@@ -2,11 +2,13 @@ body {
     background: #bbb;
     color: #efefef;
     overflow: hidden;
+
+    font-familY: 'Fontin-Regular', serif;
+    src: url("../fonts/Fontin-Regular.otf");
 }
 
 main {
     text-align: center;
-    font-familY: serif;
     padding: 1em;
     width: 70%;
     height: 100%;
