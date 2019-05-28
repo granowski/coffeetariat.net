@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import './IndexPage.css';
-import background from '../images/IMG_5814.jpg';
+import background from '../images/IMG_5814.shrunken.jpg';
 
 import githublogo from '../images/GitHub_Logo.png';
 import githubicon from '../images/GitHub-Mark-120px-plus.png';
@@ -59,6 +59,7 @@ export class IndexPage extends Component {
               <p>A class of web sites/services primarily developed by a coffee consuming human-kind.</p>
             </React.Fragment>
           )} />
+          <hr />
           <NavList />
           <hr />
           <Route path="/" component={() => {
