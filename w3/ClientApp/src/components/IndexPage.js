@@ -9,6 +9,7 @@ import inlogo from '../images/Logo-2C-121px-TM.png';
 import {Route} from "react-router-dom";
 
 import {NavList} from "./NavList";
+import {HeaderBar} from "./HeaderBar";
 
 export class IndexPage extends Component {
   constructor(props) {
