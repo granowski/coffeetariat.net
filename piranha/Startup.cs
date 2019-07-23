@@ -46,6 +46,12 @@ namespace Blog
             {
                 options.UseNpgsql(Configuration.GetConnectionString("piranha"));
             });
+            
+            services.AddSpaStaticFiles(configuration =>
+            {
+                configuration.RootPath = "app/build";
+            });
+
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, IApi api)
@@ -74,19 +80,22 @@ namespace Blog
                 .DeleteOrphans();
 
             app.UseStaticFiles();
+            app.UseSpaStaticFiles();
             app.UseAuthentication();
             app.UsePiranha();
             app.UsePiranhaManager();
             app.UseMvc(routes =>
             {
-                routes.MapRoute(name: "areaRoute",
-                    template: "{area:exists}/{controller}/{action}/{id?}",
-                    defaults: new {controller = "Home", action = "Index"});
-
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=home}/{action=index}/{id?}");
+//                routes.MapRoute(name: "areaRoute",
+//                    template: "{area:exists}/{controller}/{action}/{id?}",
+//                    defaults: new {controller = "Home", action = "Index"});
+//
+//                routes.MapRoute(
+//                    name: "default",
+//                    template: "{controller=home}/{action=index}/{id?}");
             });
+            
+            app.UseSpa(spa => { spa.Options.SourcePath = "app"; });
         }
     }
 }
