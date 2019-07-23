@@ -2,7 +2,7 @@ using Piranha.AttributeBuilder;
 using Piranha.Extend.Fields;
 using Piranha.Models;
 
-namespace blog.Models.Regions
+namespace Blog.Models.Regions
 {
     public class SiteInfo
     {

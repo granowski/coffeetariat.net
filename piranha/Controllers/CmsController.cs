@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Piranha;
-using blog.Models;
+using Blog.Models;
 
-namespace blog.Controllers
+namespace Blog.Controllers
 {
     public class CmsController : Controller
     {

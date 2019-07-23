@@ -1,7 +1,7 @@
 using Piranha.AttributeBuilder;
 using Piranha.Models;
 
-namespace blog.Models
+namespace Blog.Models
 {
     [SiteType(Title = "Default site")]
     public class BlogSite : SiteContent<BlogSite>

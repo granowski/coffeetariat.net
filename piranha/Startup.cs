@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Piranha;
 using Piranha.AspNetCore.Identity.PostgreSQL;
 
-namespace blog
+namespace Blog
 {
     public class Startup
     {

@@ -1,7 +1,7 @@
 using Piranha.AttributeBuilder;
 using Piranha.Extend.Fields;
 
-namespace blog.Models.Regions
+namespace Blog.Models.Regions
 {
     public class Hero
     {
