@@ -5,9 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="app\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.4" />
