@@ -1,4 +1,5 @@
 import * as React from "react";
+import {Marquee} from "./Marquee";
 
 export class HeaderBar extends React.Component<any, any> {
     constructor(props) {
@@ -8,7 +9,7 @@ export class HeaderBar extends React.Component<any, any> {
     render() {
         return (
             <div>
-                What to put here...
+                <Marquee text="wtf" />
             </div>
         );
     }

@@ -19,6 +19,8 @@
     <Content Remove="$(SpaRoot)**" />
     <Content Include="ClientApp\src\components\IndexPage.css" />
     <Content Include="ClientApp\src\components\IndexPage.js" />
+    <Content Include="ClientApp\src\components\Marquee.css" />
+    <Content Include="ClientApp\src\components\Marquee.tsx" />
     <Content Include="ClientApp\src\components\NavList.css" />
     <Content Include="ClientApp\src\components\NavList.js" />
     <Content Include="ClientApp\src\images\IMG_5798.jpg" />
