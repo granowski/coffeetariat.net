@@ -10,6 +10,7 @@ export default class App extends Component {
     return (
       <Layout>
         <Route path='/' component={IndexPage} />
+        <Route path='/' componetn={UnpopularFeed} />
       </Layout>
     );
   }
