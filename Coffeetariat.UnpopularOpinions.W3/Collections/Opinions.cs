@@ -1,42 +1,38 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using Coffeetariat.UnpopularOpinions.W3.Interfaces;
+using System.Xml.Serialization;
 using Coffeetariat.UnpopularOpinions.W3.Models;
 
 namespace Coffeetariat.UnpopularOpinions.W3.Collections
 {
-  public class Opinions : IOpinions
-  {
-    private List<Opinion> _cachedOpinions;
-
-    public Opinions()
+    [XmlRoot("data")]
+    public class Opinions
     {
-      _cachedOpinions = new List<Opinion>
-      {
-        new Opinion()
+        private List<Opinion> _opinions = new List<Opinion>();
+
+        [XmlArray("opinions")]
+        [XmlArrayItem("opinion")]
+        public List<Opinion> Data
         {
-          Id = 0,
-          Message = "Koala's are nature's gimp-panda."
-        },
-        new Opinion()
-        {
-          Id = 0,
-          Message = "My anaconda... whut!?"
+            get => _opinions;
+            set => _opinions = value;
         }
-      };
-    }
 
-    public IEnumerable<Opinion> GetLast10() => _cachedOpinions.Take(10);
+        public IEnumerable<Opinion> Take(int count) => _opinions.Take(count);
+        public int Max(Func<Opinion, int> f) => _opinions.Max(f);
 
-    public IResult Create(Opinion opinion)
-    {
-      _cachedOpinions.Add(opinion);
-      return null;
-    }
+        public void Add(Opinion item) => _opinions.Add(item);
 
-    public int LastId()
-    {
-      return _cachedOpinions.Max(o => o.Id) + 1;
+        public void Clear() => _opinions.Clear();
+
+        public bool Contains(Opinion item) => _opinions.Contains(item);
+
+        public void CopyTo(Opinion[] array, int arrayIndex) => _opinions.CopyTo(array, arrayIndex);
+
+        public bool Remove(Opinion item) => _opinions.Remove(item);
+
+        public int Count => _opinions.Count;
+        public bool IsReadOnly => false;
     }
-  }
 }

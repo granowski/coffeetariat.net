@@ -7,25 +7,25 @@ namespace Coffeetariat.UnpopularOpinions.W3.Controllers
   [Route("api/opinions")]
   public class Opinions : ControllerBase
   {
-    private readonly IOpinions _opinions;
+    private readonly IOpinionsRepository _opinionsRepository;
 
-    public Opinions(IOpinions opinions)
+    public Opinions(IOpinionsRepository opinionsRepository)
     {
-      _opinions = opinions;
+      _opinionsRepository = opinionsRepository;
     }
 
     [HttpGet()]
     public IActionResult Get()
     {
-      return Ok(_opinions.GetLast10());
+      return Ok(_opinionsRepository.GetLast10());
     }
 
     [HttpPut("create")]
     public IActionResult Put([FromBody] string message)
     {
-      var result = _opinions.Create(new Opinion
+      var result = _opinionsRepository.Create(new Opinion
       {
-        Id = _opinions.LastId(),
+        Id = _opinionsRepository.LastId(),
         Message = message
       });
       

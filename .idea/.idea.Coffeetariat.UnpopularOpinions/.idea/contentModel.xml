@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_Coffeetariat.UnpopularOpinions.-1522461451.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Coffeetariat.UnpopularOpinions.W3" t="IncludeRecursive">
+        <e p="Coffeetariat.UnpopularOpinions.W3.csproj" t="IncludeRecursive" />
+        <e p="Collections" t="Include">
+          <e p="Opinions.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="OpinionsController.cs" t="Include" />
+        </e>
+        <e p="DataSources" t="Include">
+          <e p="XmlOpinionsFile.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IOpinionsDataSource.cs" t="Include" />
+          <e p="IOpinionsRepository.cs" t="Include" />
+          <e p="IResult.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Opinion.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="OpinionsRepository.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Coffeetariat.UnpopularOpinions.W3.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="images" t="Include">
+            <e p="bald-eagle-haha.jpg" t="Include" />
+          </e>
+          <e p="index.css" t="Include" />
+          <e p="index.html" t="Include" />
+        </e>
+      </e>
+      <e p="Coffeetariat.UnpopularOpinions.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,5 +1,6 @@
-﻿using Coffeetariat.UnpopularOpinions.W3.Collections;
+﻿using Coffeetariat.UnpopularOpinions.W3.DataSources;
 using Coffeetariat.UnpopularOpinions.W3.Interfaces;
+using Coffeetariat.UnpopularOpinions.W3.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,8 @@ namespace Coffeetariat.UnpopularOpinions.W3
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.AddSingleton<IOpinions>(new Opinions());
+            services.AddSingleton<IOpinionsDataSource, XmlOpinionsFile>();
+            services.AddSingleton<IOpinionsRepository, OpinionsRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

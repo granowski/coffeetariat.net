@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="070ff95d-27ed-4112-a780-91939f2c2d70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Coffeetariat.UnpopularOpinions/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Coffeetariat.UnpopularOpinions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Coffeetariat.UnpopularOpinions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/DataSources/XmlOpinionsFile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Repositories/OpinionsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Collections/Opinions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Collections/Opinions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Controllers/OpinionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Controllers/OpinionsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Models/Opinion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Models/Opinion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Startup.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Repositories/OpinionsRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <marker date="1571549327011" expanded="false" signature="6:205" ph="..." />
+                <marker date="1571549327011" expanded="true" signature="263:1063" ph="{...}" />
+                <marker date="1571549327011" expanded="true" signature="321:1061" ph="{...}" />
+                <marker date="1571549327011" expanded="true" signature="453:792" ph="{...}" />
+                <marker date="1571549327011" expanded="true" signature="460:729" ph="/* _cachedOpinions = new Opinions() ... */" />
+                <marker date="1571549327011" expanded="true" signature="908:973" ph="{...}" />
+                <marker date="1571549327011" expanded="true" signature="998:1057" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+              <folding>
+                <marker date="1571543438998" expanded="true" signature="6:352" ph="..." />
+                <marker date="1571543438998" expanded="true" signature="397:1342" ph="{...}" />
+                <marker date="1571543438998" expanded="true" signature="424:1340" ph="{...}" />
+                <marker date="1571543438998" expanded="true" signature="483:546" ph="{...}" />
+                <marker date="1571543438998" expanded="true" signature="668:931" ph="{...}" />
+                <marker date="1571543438998" expanded="true" signature="1012:1334" ph="{...}" />
+                <marker date="1571543438998" expanded="true" signature="1059:1136" ph="{...}" />
+                <marker date="1571543438998" expanded="true" signature="1153:1212" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Collections/Opinions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <marker date="1571550884474" expanded="true" signature="6:146" ph="..." />
+                <marker date="1571550884474" expanded="true" signature="203:1107" ph="{...}" />
+                <marker date="1571550884474" expanded="true" signature="253:1105" ph="{...}" />
+                <marker date="1571550884474" expanded="true" signature="422:510" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/bin/Debug/netcoreapp2.2/opinions.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <marker date="1571542599299" expanded="false" signature="6:81" ph="..." />
+                <marker date="1571542599299" expanded="true" signature="137:281" ph="{...}" />
+                <marker date="1571542599299" expanded="true" signature="178:279" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsDataSource.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+              <folding>
+                <marker date="1571543051101" expanded="true" signature="6:134" ph="..." />
+                <marker date="1571543051101" expanded="true" signature="190:295" ph="{...}" />
+                <marker date="1571543051101" expanded="true" signature="233:293" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/DataSources/XmlOpinionsFile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+              <folding>
+                <marker date="1571550691955" expanded="true" signature="6:233" ph="..." />
+                <marker date="1571550691955" expanded="true" signature="290:1676" ph="{...}" />
+                <marker date="1571550691955" expanded="true" signature="347:1674" ph="{...}" />
+                <marker date="1571550691955" expanded="true" signature="407:1668" ph="{...}" />
+                <marker date="1571550691955" expanded="true" signature="589:914" ph="{...}" />
+                <marker date="1571550691955" expanded="true" signature="669:900" ph="{...}" />
+                <marker date="1571550691955" expanded="true" signature="1225:1609" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Models/Opinion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8D55573-7AC6-4A31-A960-E81F1EB8FCC9/b3/04c7513f/IEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/60/eca09ab4/ResourceInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsDataSource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Controllers/OpinionsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Repositories/OpinionsRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Collections/Opinions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/DataSources/XmlOpinionsFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsCollection.cs" />
+        <option value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsRepository.cs" />
+        <option value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsDataSource.cs" />
+        <option value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Startup.cs" />
+        <option value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Models/Opinion.cs" />
+        <option value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Repositories/OpinionsRepository.cs" />
+        <option value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/DataSources/XmlOpinionsFile.cs" />
+        <option value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/bin/Debug/netcoreapp2.2/opinions.xml" />
+        <option value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Collections/Opinions.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="683" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Coffeetariat.UnpopularOpinions.W3" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Coffeetariat.UnpopularOpinions.W3" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="bin" type="9a108dff:SolutionExplorerFileNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Coffeetariat.UnpopularOpinions.W3" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="bin" type="9a108dff:SolutionExplorerFileNode" />
+              <item name="Debug" type="9a108dff:SolutionExplorerFileNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Coffeetariat.UnpopularOpinions.W3" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="bin" type="9a108dff:SolutionExplorerFileNode" />
+              <item name="Debug" type="9a108dff:SolutionExplorerFileNode" />
+              <item name="netcoreapp2.2" type="9a108dff:SolutionExplorerFileNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Coffeetariat.UnpopularOpinions.W3" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Collections" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Coffeetariat.UnpopularOpinions.W3" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Coffeetariat.UnpopularOpinions.W3" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DataSources" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Coffeetariat.UnpopularOpinions.W3" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Interfaces" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Coffeetariat.UnpopularOpinions.W3" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Coffeetariat.UnpopularOpinions" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Coffeetariat.UnpopularOpinions.W3" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="true" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.Coffeetariat.UnpopularOpinions.W3: Coffeetariat.UnpopularOpinions">
+    <configuration name="Coffeetariat.UnpopularOpinions.W3: Coffeetariat.UnpopularOpinions" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Coffeetariat.UnpopularOpinions.W3.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="Coffeetariat.UnpopularOpinions" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Coffeetariat.UnpopularOpinions.W3: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Coffeetariat.UnpopularOpinions.W3.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="070ff95d-27ed-4112-a780-91939f2c2d70" name="Default Changelist" comment="" />
+      <created>1571541381784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571541381784</updated>
+      <workItem from="1571541383354" duration="9498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9498000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="720" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Azure Explorer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.32879046" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007553" side_tool="true" weight="0.39863715" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TeamCity" />
+      <window_info anchor="bottom" id="Azure Activity Log" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924472" visible="true" weight="0.39863715" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsDataSource.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <marker date="1571543051101" expanded="true" signature="6:134" ph="..." />
+            <marker date="1571543051101" expanded="true" signature="190:295" ph="{...}" />
+            <marker date="1571543051101" expanded="true" signature="233:293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Interfaces/IOpinionsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1571542599299" expanded="false" signature="6:81" ph="..." />
+            <marker date="1571542599299" expanded="true" signature="137:281" ph="{...}" />
+            <marker date="1571542599299" expanded="true" signature="178:279" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+          <folding>
+            <marker date="1571543438998" expanded="true" signature="6:352" ph="..." />
+            <marker date="1571543438998" expanded="true" signature="397:1342" ph="{...}" />
+            <marker date="1571543438998" expanded="true" signature="424:1340" ph="{...}" />
+            <marker date="1571543438998" expanded="true" signature="483:546" ph="{...}" />
+            <marker date="1571543438998" expanded="true" signature="668:931" ph="{...}" />
+            <marker date="1571543438998" expanded="true" signature="1012:1334" ph="{...}" />
+            <marker date="1571543438998" expanded="true" signature="1059:1136" ph="{...}" />
+            <marker date="1571543438998" expanded="true" signature="1153:1212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8D55573-7AC6-4A31-A960-E81F1EB8FCC9/b3/04c7513f/IEnumerable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD244751-0325-4121-9FE0-724DAFC7E191/60/eca09ab4/ResourceInvoker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="406" column="10" selection-start-line="406" selection-start-column="10" selection-end-line="406" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Models/Opinion.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <marker date="1571549130779" expanded="true" signature="83:229" ph="{...}" />
+            <marker date="1571549130779" expanded="true" signature="108:227" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Controllers/OpinionsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <marker date="1571542599323" expanded="false" signature="6:131" ph="..." />
+            <marker date="1571542599323" expanded="true" signature="188:826" ph="{...}" />
+            <marker date="1571542599323" expanded="true" signature="257:824" ph="{...}" />
+            <marker date="1571542599323" expanded="true" signature="384:444" ph="{...}" />
+            <marker date="1571542599323" expanded="true" signature="492:554" ph="{...}" />
+            <marker date="1571542599323" expanded="true" signature="635:820" ph="{...}" />
+            <marker date="1571542599323" expanded="true" signature="706:784" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Repositories/OpinionsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <marker date="1571549327011" expanded="false" signature="6:205" ph="..." />
+            <marker date="1571549327011" expanded="true" signature="263:1063" ph="{...}" />
+            <marker date="1571549327011" expanded="true" signature="321:1061" ph="{...}" />
+            <marker date="1571549327011" expanded="true" signature="453:792" ph="{...}" />
+            <marker date="1571549327011" expanded="true" signature="460:729" ph="/* _cachedOpinions = new Opinions() ... */" />
+            <marker date="1571549327011" expanded="true" signature="908:973" ph="{...}" />
+            <marker date="1571549327011" expanded="true" signature="998:1057" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/DataSources/XmlOpinionsFile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+          <folding>
+            <marker date="1571550691955" expanded="true" signature="6:233" ph="..." />
+            <marker date="1571550691955" expanded="true" signature="290:1676" ph="{...}" />
+            <marker date="1571550691955" expanded="true" signature="347:1674" ph="{...}" />
+            <marker date="1571550691955" expanded="true" signature="407:1668" ph="{...}" />
+            <marker date="1571550691955" expanded="true" signature="589:914" ph="{...}" />
+            <marker date="1571550691955" expanded="true" signature="669:900" ph="{...}" />
+            <marker date="1571550691955" expanded="true" signature="1225:1609" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/bin/Debug/netcoreapp2.2/opinions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coffeetariat.UnpopularOpinions.W3/Collections/Opinions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <marker date="1571550884474" expanded="true" signature="6:146" ph="..." />
+            <marker date="1571550884474" expanded="true" signature="203:1107" ph="{...}" />
+            <marker date="1571550884474" expanded="true" signature="253:1105" ph="{...}" />
+            <marker date="1571550884474" expanded="true" signature="422:510" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
