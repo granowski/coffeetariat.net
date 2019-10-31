@@ -5,6 +5,22 @@
     <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_Coffeetariat.UnpopularOpinions.-1522461451.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Coffeetariat.UnpopularOpinions.Database" t="IncludeRecursive">
+        <e p="Coffeetariat.UnpopularOpinions.Database.csproj" t="IncludeRecursive" />
+        <e p="Configurator.cs" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="Opinion.cs" t="Include" />
+        </e>
+        <e p="OpinionContext.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Coffeetariat.UnpopularOpinions.Database.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="Coffeetariat.UnpopularOpinions.W3" t="IncludeRecursive">
         <e p="Coffeetariat.UnpopularOpinions.W3.csproj" t="IncludeRecursive" />
         <e p="Collections" t="Include">
@@ -21,9 +37,15 @@
           <e p="IOpinionsRepository.cs" t="Include" />
           <e p="IResult.cs" t="Include" />
         </e>
+        <e p="Migrations" t="Include">
+          <e p="20191031061722_first.Designer.cs" t="Include" />
+          <e p="20191031061722_first.cs" t="Include" />
+          <e p="OpinionContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="Opinion.cs" t="Include" />
         </e>
+        <e p="OpinionContext.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -42,6 +64,7 @@
             </e>
           </e>
         </e>
+        <e p="packages-microsoft-prod.deb" t="Include" />
         <e p="wwwroot" t="Include">
           <e p="images" t="Include">
             <e p="bald-eagle-haha.jpg" t="Include" />
