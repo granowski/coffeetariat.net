@@ -56,24 +56,30 @@ namespace Coffeetariat.UnpopularOpinions.Database
 
         public static void WriteConfigurationToFile(string filename, Configuration configuration)
         {
-            string fn = filename;
-            if (string.IsNullOrEmpty(filename))
-            {
-                fn = "db-configuration.txt";
-            }
+//            string fn = filename;
+//            if (string.IsNullOrEmpty(filename))
+//            {
+//                fn = "db-configuration.txt";
+//            }
+//
+//            fn += '-' + DateTime
+//                      .Now.ToString("s")
+//                      .Replace(":", "_")
+//                      .Replace("T", "_");
+            
+//            string outputPath = Directory.GetCurrentDirectory();
 
-            fn += '-' + DateTime
-                      .Now.ToString("s")
-                      .Replace(":", "_")
-                      .Replace("T", "_");
+//            string outpath = Path.Combine(fn, outputPath);
             
-            string outputPath = Directory.GetCurrentDirectory();
-
-            string outpath = Path.Combine(fn, outputPath);
+            var fs = File.OpenWrite(filename);
+            var sw = new StreamWriter(fs);
+//            StreamWriter fs = File.OpenWrite(filename);
             
-            StreamWriter fs = File.CreateText(outpath);
+            sw.Write(Configurator.GenerateConnectionString(configuration));
+            sw.WriteLine();
             
-            fs.Write(Configurator.GenerateConnectionString(configuration));
+            sw.Flush();
+            sw.Dispose();
             
             fs.Close();
             fs.Dispose();

@@ -29,23 +29,7 @@ namespace Coffeetariat.UnpopularOpinions.W3
             services.AddSingleton<IOpinionsDataSource, XmlOpinionsFile>();
             services.AddSingleton<IOpinionsRepository, OpinionsRepository>();
 
-            services.AddDbContext<Database.OpinionContext>(options =>
-            {
-                Configurator.Configuration dbconfig =
-                    new Configurator.Configuration(
-                        Configuration["Database:Host"] ?? string.Empty, 
-                        Configuration["Database:Owner"] ?? string.Empty, 
-                        Configuration["Database:OwnerPassword"] ?? string.Empty, 
-                        Configuration["Database:Name"] ?? "unnamed");
-
-                dbconfig.EnsureValidOrThrow();
-            
-                var connectionString = Configurator.GenerateConnectionString(dbconfig);
-            
-//                Configurator.WriteConfigurationToFile(null, dbconfig);
-                Configurator.WriteConfigurationToOut(System.Console.OpenStandardOutput(), dbconfig);
-                options.UseNpgsql(new NpgsqlConnection(connectionString));
-            });
+            services.AddDbContext<Database.OpinionContext>(options => {});
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

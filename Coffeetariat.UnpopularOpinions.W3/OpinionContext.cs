@@ -1,4 +1,3 @@
-using System;
 using System.IO;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -34,12 +33,13 @@ namespace Coffeetariat.UnpopularOpinions.Database
             
             var connectionString = Configurator.GenerateConnectionString(dbconfig);
 
-//            Configurator.WriteConfigurationToFile(null, dbconfig);
+            string tempConnectionInformationFile = Path.GetTempFileName();
+            System.Console.WriteLine("connection information for this instance -> " +
+                                     tempConnectionInformationFile);
             
-            Configurator.WriteConfigurationToOut(System.Console.OpenStandardOutput(), dbconfig);
-            
+            Configurator.WriteConfigurationToFile(tempConnectionInformationFile, dbconfig);
+
             optionsBuilder.UseNpgsql(new NpgsqlConnection(connectionString));
         }
-
     }
 }
