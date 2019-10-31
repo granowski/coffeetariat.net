@@ -31,8 +31,7 @@ namespace Coffeetariat.UnpopularOpinions.W3.DataSources
             defaultOpinions.Add(new Opinion {Id = 0, Message = "Coffee is life."});
             defaultOpinions.Add(new Opinion { Id = 1, Message = "Koala's are nature's gimp-panda."});
             
-            using (fs = File.Create(path))
-            {
+            using (fs = File.Create(path
                 XmlWriter xw = XmlWriter.Create(fs);
                 XmlSerializer xs = new XmlSerializer(typeof(Opinions));
                 

@@ -9,6 +9,11 @@ namespace Coffeetariat.UnpopularOpinions.Database
     public class OpinionContext : DbContext
     {
         public DbSet<Entities.Opinion> Opinions { get; set; }
+
+        public OpinionContext(DbContextOptions<OpinionContext> options)
+        {
+            
+        }
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
