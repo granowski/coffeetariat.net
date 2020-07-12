@@ -1,0 +1,73 @@
+{
+  "lastModifiedDate": "2020-07-12T15:38:00+00:00",
+  "firstName": "Derrick",
+  "lastName": "Granowski",
+  "city": "Denver",
+  "state": "Colorado",
+  "phoneNumber": [1, 218, 308, 3036],
+  "emails": [
+    {
+      "address": "granowski@coffeetariat.net",
+      "preferred": false
+    },
+    {
+      "address": "granowski@hotmail.com",
+      "preferred": false
+    },
+    {
+      "address": "granowski@gmail.com",
+      "preferred": true
+    }
+  ],
+  "jobs": [
+    {
+      "company": "Wide Open West (WOW!)",
+      "position": "Software Engineer 3, Scrum Lead, Principal Software Engineer",
+      "description": "Brought on after a rough start of their year, I came in and lead a\nsmall team to deliver the “Self Install” feature for customers. I\norganized the team’s Jira project and we developed a fast paced\nflow that gave insight to management on how we deliver and\nwhen we would succeed. My main job was to be a full-stack dev\nand fill in for the missing front-end experiences, but I ended up\nleading the team during a human resource shift.",
+      "startMonth": 8,
+      "startDay": 12,
+      "startYear": 2019,
+      "endMonth": 0,
+      "endDay": 0,
+      "endYear": 0,
+      "bullets": [
+        "Tailored work for offshore Macedonia to have a constant\nflow of work.",
+        "Drove the collaboration between multiple disparate parties.",
+        "Stabilized deployment practice of a few internal tools\nthrough inter-team coordination.",
+        "Worked closely with the QA lead to communicate\ndeficiencies in our solution."
+      ]
+    },
+    {
+      "company": "Open Technology Solutions (OTS)",
+      "position": "Technical Lead of the Acquisitions Team, Senior Software\nDeveloper",
+      "description": "I continued my role as an experienced full-stack web engineer.\nMy team and I delivered a long deferred and awaited project, a\nresponsive web-app upgrade for their credit unions’ online loan\napplication form built on React/Redux and .Net Core. I worked\nwith their core enterprise team to get the system headed into the\nmicroservices direction the company desired. While, on the\ndaily, supporting the team’s web development needs.",
+      "startMonth": 5,
+      "startDay": 0,
+      "startYear": 2018,
+      "endMonth": 8,
+      "endDay": 2,
+      "endYear": 2019,
+      "bullets": [
+        "Encouraged/Educated the team on all browser technology\nneeds.",
+        "Supported my group through cross-team collaboration.",
+        "Provided the in-depth knowledge of how the system\nworked."
+      ]
+    },
+    {
+      "company": "Open Technology Solutions (OTS) as part of Gavinheath",
+      "position": "Senior Software Developer placed by Gavinheath",
+      "description": "Working at OTS, a company that provides IT/Development\nservices for three credit unions (Bellco, Bethpage, SECU), I used\nmy skills to help deliver quality software. A team of contractors\nand I delivered a data migration project to its finish on tight\ndeadlines, while maintaining as much of the coding standards\nand SDLC Agile process. My primary role was to build the front-\nend using C# with ASP.NET MVC to communicate with an\nASP.NET Core WebAPI project.",
+      "startMonth": 5,
+      "startDay": 0,
+      "startYear": 2017,
+      "endMonth": 5,
+      "endDay": 0,
+      "endYear": 2018,
+      "bullets": [
+        "Encouraged/Educated the team on use of git",
+        "Built an encryption library/tool to the security teams\nstandards for interfacing with a third party.",
+        "Continuously upgraded the teams internal web tool for the\nbusiness rules."
+      ]
+    }
+  ]
+}
